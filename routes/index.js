@@ -4,8 +4,7 @@ var Controller = require('../controllers/scrabble');
 
 /* GET home page. */
 router.get('/', Controller.index)
-
-router.get('/scrabble', Controller.getScrabble)
+router.get('/scrabble', Controller.index)
 
 /* GET chart page. */
 router.get('/scrabble/chart', Controller.chart)

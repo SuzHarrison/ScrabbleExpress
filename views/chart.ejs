@@ -4,6 +4,14 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
+  <header>
+    <nav>
+      <ul>
+        <li><a href='/scrabble'>Home</a></li>
+        <li><a href='/scrabble/score'>Score your Word</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
     <h2>Scrabble Letter Score Chart</h2>
     <h1><% for(var letter in letters) {%></h1>

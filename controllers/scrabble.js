@@ -3,7 +3,7 @@ var scrabble = new Scrabble();
 
 var ScrabbleController = {
   index: function (req, res, next) {
-    res.render('index', { title: 'Express' })
+    res.render('index', { title: 'Scrabble Express!' })
   },
 
   getScrabble: function (req, res) {
